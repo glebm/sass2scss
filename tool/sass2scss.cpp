@@ -104,6 +104,6 @@ int main (int argc, char** argv)
 	{ pretty = SASS2SCSS_PRETTIFY_3; }
 
 	// print the resulting scss
-	cout << Sass::sass2scss (sass, pretty | options);
+	cout << Sass2Scss::sass2scss (sass, pretty | options);
 
 }
